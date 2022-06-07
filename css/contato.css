@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#body{
+    background-color: #fff;
+}
+.menu ul li{
+    display: inline;
+    list-style: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-family: 'Kanit', sans-serif;
+    font-size: 25px;
+    color: #ffffff;
+    padding: 0 20px 0 20px;
+}
+
+.menu a:hover{
+    color: #000;
+}
+
+.menu{
+    background-color: #10dbffea;
+    display: flex;
+    /* topo | direita | inferior | esquerda */
+    padding: 50px;
+}
+
+.content{
+    /* top right bottom left */
+    margin: 7% 17% 10% 17%;
+    padding: 30px;
+    background-color: #07c4e6ea;
+    border-radius: 20px;
+}
+
+
+.apresentacao a:visited{
+    color: #490249;
+}
+
+.apresentacao a:link{
+    color: #000000;
+}
+
+.apresentacao img{
+    width: 41px;
+    height: 41px;
+}
+
+.apresentacao img:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.apresentacao p{
+    /* top right bottom left */
+    margin: 10px 0 60px 0;
+}
+
+.apresentacao h1{
+    margin-top: 40px;
+}
+
+.content{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+    /* offset-x | offset-y | color */
+    box-shadow: 20px 20px #06a3caea;
+}
+
+.nomeSobre{
+    display: flex;
+}
+
+.emailTel{
+    display: flex;
+}
+
+.row{
+    padding: 10px;
+}
+
+legend{
+    font-size: 35px;
+    /* top right bottom left */
+    padding: 0 10px 0 10px;
+}
+
+fieldset{
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border-color: #06a3caea;
+}
+
+input{
+    outline: none;
+    padding: 5px;
+    /* top right bottom left */
+    margin: 8px 20px 8px 20px;
+    height: 32px;
+    font-size: 15px;
+    font-family: 'Kanit', sans-serif;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: none;
+}
+
+input[id="nome"],
+input[id="sobrenome"]{
+    width: 450px;
+}
+
+input[id="email"]{
+    width: 350px;
+}
+
+input[id="telefone"]{
+    width: 300px;
+}
+
+input[id="nasc"]{
+    width: 250px;
+}
+
+input[type="submit"]{
+     /* top right bottom left */
+    margin-top: 20px;
+    margin-left: 48%;
+    border-color: #000;
+    background-color: #ffffff;
+}
+
+input[type="submit"]:hover{
+    background-color: #fff;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+label{
+    font-size: small;
+}
+
+textarea{
+    padding: 5px;
+    margin: 40px 20px auto 20px;
+    font-size: 15px;
+    font-family: 'Kanit', sans-serif;
+    outline: none;
+    resize: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: none;
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+    background-color: #089cffd3;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(18, 133, 240);
+}
+
+footer{
+    /* top right bottom left */
+    margin: 6% auto 0;
+    padding: 2% 2% 2% 2%;
+    background-color: #10dbffea;
+    color: #ffffff;
+    font-size: medium;
+    font-family: 'Kanit', sans-serif;
+    text-align: right;
+    }
+    
+    footer img{
+    height: 130px;
+    width: 150px;
+    margin: 0 91% 0 auto;
+    }

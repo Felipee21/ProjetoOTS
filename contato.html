@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Cauã da Silva Salazar - SENAI">
+    <meta name="keywords" content="medicina, OTS, doenças, médico">
+    <link rel="icon" href="/img/MicrosoftTeams-image (4).png">
+    <link rel="stylesheet" href="/css/contato.css">
+    <title>OTS</title>
+</head>
+
+<body>
+
+    <body id="body">
+
+        <!-- inicio do menu -->
+        <div class="fixed-top">
+            <div class="menu">
+                <ul>
+                    <li> <a href="index.html">HOME</a> </li>
+                    <li> <a href="sobre.html">SOBRE NÓS</a> </li>
+                    <li> <a href="contato.html">CONTATO</a> </li>
+                </ul>
+            </div>
+        </div>
+        <!-- fim do menu -->
+
+        <!-- inicio do conteudo -->
+        <div class="content">
+
+            <div class="apresentacao">
+                <div class="afiliacoes">
+                    <h4>Filiações</h4>
+
+                    <img src="/img/omsLogo.png" alt="OMS Logo">
+                    <img src="/img/unimedLogo2.png" alt="Unimed Logo">
+                    <img src="/img/susLogo.png" alt="SUS Logo">
+                    <img src="/img/cruzvermelhaLogo.png" alt="Cruz Vermelha Logo">
+                </div>
+
+                <h1>Fale Conosco</h1>
+
+                <p>A comunicação entre a população e o nossa equipe é de suma importância para que possamos ter um
+                    entendimento de caso por caso.
+                    Preencha o formulário abaixo que facilitara os procedimentos para o cliente ter acesso aos nossos
+                    serviços.
+                    <br><br>
+                    Seus dados serão coletados e tratados apenas com finalidade de facilitar nosso trabalho. Juramos
+                    manter a proteção e a privacidade
+                    sob seus dados seguindo todas as normas impostas pela <a href="https://www.lgpdbrasil.com.br
+                    " target="_blank">LGPD (Lei Geral de Proteção de Dados)</a>.
+                </p>
+            </div>
+            <!-- inicio do formulario -->
+            <form action="https://api.staticforms.xyz/submit" method="post">
+                <input type="hidden" name="accessKey" value="acc74344-bda0-4c04-816e-14b8dc574811">
+                <!-- apos enviar o formulario a página vai ser redireciona para o value indicado -->
+                <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/contato.html">
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <div class="nomeSobre">
+                        <div class="row">
+                            <label for="nome">Nome*</label>
+                            <input type="text" id="nome" name="nome" placeholder="" required>
+                        </div>
+                        <div class="row">
+                            <label for="sobrenome">Sobrenome*</label>
+                            <input type="text" id="sobrenome" name="sobrenome" placeholder="" required>
+                        </div>
+                    </div>
+                    <div class="emailTel">
+                        <div class="row">
+                            <label for="email">Email*</label>
+                            <input type="email" id="email" name="email" placeholder="" required>
+                        </div>
+                        <div class="row">
+                            <label for="telefone">Telefone para contato*</label>
+                            <input type="tel" id="telefone" name="telefone" placeholder="" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <label for="nasc">Data de nascimento*</label>
+                        <input type="date" id="nasc" name="nasc" required>
+                    </div>
+                    <div class="row">
+                        <label for="problema">Dúvidas*</label>
+                        <textarea name="problema" id="problema" cols="30" rows="10" placeholder=""></textarea>
+                    </div>
+                    <div class="flex-container">
+                        <input type="submit">
+                    </div>
+                </fieldset>
+            </form>
+            <!-- fim do formulario -->
+        </div>
+
+        <!-- fim do conteudo -->
+
+
+
+        <!-- inicio do footer -->
+        <footer>
+            <img src="/img/susLogo.png" alt="">
+
+            &copy Direitos Reservados a OTS
+            2022
+        </footer>
+        <!-- final do footer -->
+
+    </body>
+
+</html>
